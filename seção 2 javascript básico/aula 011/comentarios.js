@@ -1,0 +1,1 @@
+console.log('Olá, mundo!'); // - Tudo que estiver aqui não será executado.
