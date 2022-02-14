@@ -3,10 +3,10 @@ let varB = 'B'; // - C
 let varC = 'C'; // - A
 let varDeSobra;
 
-const varTemporaria = varA;
+const varTemporária = varA;
 
 varA = varB;
 varB = varC;
-varC = varTemporaria;
+varC = varTemporária;
 
 console.log(varA, varB, varC);
