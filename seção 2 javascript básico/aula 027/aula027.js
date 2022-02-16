@@ -1,3 +1,3 @@
-const randomNumber = Math.random();
+let number = 9;
 
-console.log(randomNumber);
+console.log(number ** 0.5);
