@@ -5,3 +5,5 @@ const elements = [
   {tag: 'footer', text: 'phrase 4'}
 ];
 
+const container = document.querySelector('.container');
+const div = document.appendChild('div');
