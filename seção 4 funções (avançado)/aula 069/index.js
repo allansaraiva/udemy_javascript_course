@@ -1,4 +1,4 @@
-function função(a, b = 0, c) {
-  console.log(a + b + c);
+function função([valor1, valor2, valor3]) {
+  console.log(valor1, valor2, valor3)
 }
-função(2, undefined, 20);
+função(['allan', 'saraiva', 21]);
