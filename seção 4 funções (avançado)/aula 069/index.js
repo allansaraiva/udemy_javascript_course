@@ -1,9 +1,4 @@
-function função() {
-  let total = 0;
-  for (let argumento of arguments) {
-    total += argumento;
-  }
-
-  console.log(total);
+function função(a, b = 0, c) {
+  console.log(a + b + c);
 }
-função(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
+função(2, undefined, 20);
