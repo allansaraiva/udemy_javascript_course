@@ -1,4 +1,11 @@
-function função([valor1, valor2, valor3]) {
-  console.log(valor1, valor2, valor3)
+function conta(operador, acumulador, ...números) {
+  for(let número of números) {
+    if(operador === '+') acumulador += número;
+    if(operador === '-') acumulador -= número;
+    if(operador === '/') acumulador /= número;
+    if(operador === '*') acumulador *= número;
+  }
+
+  console.log(acumulador);
 }
-função(['allan', 'saraiva', 21]);
+conta('/', 0, 10, 20, 30, 40, 50);
